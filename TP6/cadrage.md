@@ -21,7 +21,7 @@ Ces scores sont convertis de 0–1 vers 0–100. Un score élevé n'est pas auto
 ## Structure et interactions
 
 - **Profil de la sélection** : trois KPI en haut, puis un graphique de barres horizontales comparant les moyennes au catalogue. Les barres permettent une comparaison précise sur un axe commun qui commence à zéro.
-- **Comparer les genres** : mêmes KPI, puis une matrice colorée des profils moyens, avec effectifs et valeurs affichées. Elle facilite le repérage des proximités entre genres ; l'échelle reste fixée de 0 à 100.
+- **Comparer les genres** : mêmes KPI, puis des barres horizontales comparant une caractéristique audio au choix, avec effectifs et valeurs affichées. Elles facilitent la comparaison des moyennes entre genres ; l'axe commence à zéro et reste fixé de 0 à 100.
 - **Explorer les titres** : mêmes KPI, puis un nuage énergie–dansabilité pour montrer la dispersion réelle des morceaux, accompagné d'une liste recherchable et exportable avec liens Spotify.
 
 Les filtres communs sont dans la sidebar : genres, contenu explicite, popularité historique et plages audio. Ils persistent entre les pages. Le vert souligne la sélection, le gris indique la référence. Le thème sombre, la typographie simple et le petit logo limitent la charge visuelle. Une seule visualisation principale est présentée par page.

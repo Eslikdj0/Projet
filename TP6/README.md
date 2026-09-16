@@ -54,7 +54,7 @@ TP6/
 ├── ui.py                    # Titres, KPI, formatage et explications communes
 ├── app_pages/
 │   ├── profil.py            # Barres sélection / catalogue
-│   ├── genres.py            # Matrice des profils musicaux
+│   ├── genres.py            # Barres comparant les genres sur un attribut audio
 │   └── titres.py            # Nuage, recherche, tableau, export CSV
 ├── data/
 │   ├── dataset.csv.gz       # Fichier Kaggle original, compressé sans perte
@@ -101,10 +101,10 @@ Ces scores ne sont pas des pourcentages. La référence reste fixe, même lorsqu
 | Page | Graphique | Pourquoi ce choix ? |
 |---|---|---|
 | Profil | Barres horizontales groupées | Comparaison précise à une référence fixe, noms lisibles, axe 0–100 |
-| Genres | Matrice de moyennes colorées et chiffrées | Lecture des ressemblances entre plusieurs profils ; couleurs sur la même échelle 0–100 |
+| Genres | Barres horizontales des moyennes par genre | Comparaison d'un attribut audio au choix ; axe commun fixe de 0 à 100 et effectifs visibles |
 | Titres | Nuage énergie–dansabilité | Montre les différences entre morceaux que les moyennes masquent ; axes fixes 0–1 |
 
-La matrice affiche au maximum 15 genres, classés selon le critère choisi ; les valeurs de tous les genres filtrés sont accessibles en dessous. Les variables de la matrice sont déjà sur la même échelle 0–1 : pas de standardisation qui changerait le sens des scores. Le nuage utilise un échantillon reproductible de 2 000 titres au maximum (`random_state=42`) pour rester fluide. Les KPI, tableaux et exports utilisent la sélection complète.
+Le diagramme en barres affiche au maximum 15 genres, classés selon le critère choisi. Un sélecteur permet de choisir la caractéristique audio à comparer ; les valeurs de tous les genres filtrés sont accessibles en dessous. Les scores moyens sont convertis de 0–1 vers 0–100, sans standardisation. Le nuage utilise un échantillon reproductible de 2 000 titres au maximum (`random_state=42`) pour rester fluide. Les KPI, tableaux et exports utilisent la sélection complète.
 
 ## Limites et honnêteté
 
