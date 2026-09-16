@@ -1,0 +1,4 @@
+# Dépendances directes du dashboard ; le notebook AED reste un document source.
+streamlit==1.57.0
+pandas==2.2.3
+plotly==6.7.0

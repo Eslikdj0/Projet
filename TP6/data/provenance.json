@@ -1,0 +1,11 @@
+{
+  "source": "https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset",
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/maharshipandya/-spotify-tracks-dataset",
+  "download_date": "2026-09-16",
+  "original_file": "dataset.csv",
+  "raw_csv_sha256": "b202fa49909b2d5cef71a04b1d21243cfeb36414535f2ca9272aa646721177bd",
+  "gzip_sha256": "902561f01129241a72b665620f9dc83e44c3b124f2c9e4a7b2efa663992f58b1",
+  "raw_rows": 114000,
+  "unique_track_ids": 89741,
+  "note": "Archive Kaggle publique. CSV original conserv? sans modification ; compression gzip sans perte."
+}

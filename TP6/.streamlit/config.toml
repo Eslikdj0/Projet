@@ -1,0 +1,20 @@
+# Thème minimal adapté à la palette Spotify. Aucune police externe nécessaire.
+[theme]
+base = "dark"
+primaryColor = "#1DB954"
+backgroundColor = "#121212"
+secondaryBackgroundColor = "#242424"
+textColor = "#F5F5F5"
+borderColor = "#353535"
+font = "sans-serif"
+baseRadius = "8px"
+showWidgetBorder = true
+headingFontSizes = ["32px", "24px", "20px", "18px", "16px", "14px"]
+chartCategoricalColors = ["#1DB954", "#A7A7A7"]
+
+[theme.sidebar]
+backgroundColor = "#191919"
+secondaryBackgroundColor = "#282828"
+
+[browser]
+gatherUsageStats = false
