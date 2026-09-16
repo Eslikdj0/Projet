@@ -7,7 +7,7 @@ from ui import GREEN, number, show_header, style_chart
 
 selection = st.session_state["selection"]
 show_header(
-    "Une même ambiance laisse le choix des titres",
+    "Quels morceaux sont les plus dansants et les plus énergiques ?",
     "Explorez les nuances d'énergie et de danse, puis retrouvez les morceaux à écouter dans Spotify.",
     selection,
     st.session_state["catalogue"],

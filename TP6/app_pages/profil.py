@@ -10,7 +10,7 @@ selection = st.session_state["selection"]
 catalogue = st.session_state["catalogue"]
 
 show_header(
-    "Le profil sonore guide votre sélection",
+    "Profil musical : votre sélection comparée à l’ensemble du catalogue",
     "Comparez l'ambiance de vos titres au catalogue, puis ajustez les filtres pour préparer une playlist cohérente.",
     selection,
     catalogue,
