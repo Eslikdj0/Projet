@@ -1,7 +1,0 @@
-[theme]
-base = "light"                        # "light" ou "dark" comme point de départ
-primaryColor = "#00634B"              # boutons, sliders, éléments interactifs
-backgroundColor = "#FFFFFF"           # zone principale
-secondaryBackgroundColor = "#F0F2F6"  # sidebar et fond des widgets
-textColor = "#262730"                 # couleur du texte
-font = "serif"                          # serif, sans serif ou monospace
